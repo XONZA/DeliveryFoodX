@@ -735,7 +735,10 @@ button {
     .section-title {
         font-size: 20px;
     }
-
+   
+    .section-heading{
+        flex-wrap: wrap;
+    }
     .card {
         flex-basis: 100%;
     }

@@ -301,6 +301,10 @@ function renderCart() {
 getData('./db/partners.json').then(function(data){
   data.forEach(createCardRest)
 });
+new Swiper('.swiper-container',{
+  loop: true,
+  autoplay: true
+})
 modalBody.addEventListener('click', chengeCount);
 cardsMenu.addEventListener('click', addToCart);
   checkAuth();
